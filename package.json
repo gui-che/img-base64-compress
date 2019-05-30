@@ -1,5 +1,5 @@
 {
-  "name": "img-base64-compress",
+  "name": "base64-compress",
   "version": "1.0.0",
   "main": "./lib/index",
   "module": "./es/index",
