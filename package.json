@@ -1,0 +1,19 @@
+{
+  "name": "img-base64-compress",
+  "version": "1.0.0",
+  "main": "./lib/index",
+  "module": "./es/index",
+  "repository": "git@github.com:gui-che/img-base64-compress.git",
+  "author": "hongxiaodi398 <hongxiaodi398@pingan.com.cn>",
+  "license": "MIT",
+  "scripts": {
+    "start": "rc-tools run compile --babel-runtime --copy-files",
+    "build": "yarn start && git add . && git commit -m '[compile]' && git pull && git push"
+  },
+  "devDependencies": {
+    "rc-tools": "^9.6.1"
+  },
+  "dependencies": {
+    "react-native-canvas": "^0.1.33"
+  }
+}
