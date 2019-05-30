@@ -1,6 +1,6 @@
 // import EXIF from "exif-js";
 
-class ImgBase64Compress {
+export default class Base64Compress {
   constructor(props = {}) {
     this.props = props;
     this.init();

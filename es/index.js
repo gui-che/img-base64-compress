@@ -5,19 +5,19 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 // import EXIF from "exif-js";
-var ImgBase64Compress =
+var Base64Compress =
 /*#__PURE__*/
 function () {
-  function ImgBase64Compress() {
+  function Base64Compress() {
     var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
-    _classCallCheck(this, ImgBase64Compress);
+    _classCallCheck(this, Base64Compress);
 
     this.props = props;
     this.init();
   }
 
-  _createClass(ImgBase64Compress, [{
+  _createClass(Base64Compress, [{
     key: "init",
     value: function init() {
       var _this = this;
@@ -181,5 +181,7 @@ function () {
 
   }]);
 
-  return ImgBase64Compress;
+  return Base64Compress;
 }();
+
+export { Base64Compress as default };
